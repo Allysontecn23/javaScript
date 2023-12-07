@@ -13,7 +13,9 @@ const numeroString = Number('456');
 console.log(numero == numeroString)
 console.log(numero + numeroString)
 
-// conversão explícita
 
+let meuNome = "leonardo";
+console.log(Number(meuNome)); // como a variável meuNome não contém apenas números ele retorna o erro NaN (Not a Number, não é número);
+console.log( + meuNome); 
 
 
